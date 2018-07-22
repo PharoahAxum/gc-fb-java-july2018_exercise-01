@@ -11,24 +11,28 @@ import java.util.Scanner;
  * Hello, World! ECHOOOOOO!
  */
 
-/*
- * Java provides a number of access modifiers to set access levels for classes, variables, methods, and constructors.
- * The four are: Default, Public, Private, and Protected.
- */
-
 public class HelloEcho {
+
+	/*
+	 * Java provides a number of access modifiers to set access levels for classes,
+	 * variables, methods, and constructors. The four are: Default, Public, Private,
+	 * and Protected.
+	 */
 
 	public static void main(String[] args) {
 
+		// Create scanner object.
 		Scanner scnr = new Scanner(System.in);
-		String usrInput = null;
+		// Declaring a variable. String is non-primitive, an object reference. Class.
+		String usrInput;
 
-		System.out.printf("Enter a short sentence. :");
+		// Prompt user for the first date to compare.
+		System.out.println("Enter a short sentence. :");
 		usrInput = scnr.nextLine();
 
-		System.out.printf("You've entered :\"" + usrInput + "\"");
+		System.out.println("You've entered :\"" + usrInput + "\"");
 
-		scnr.close();
+		scnr.close(); // Stops Eclipse' "Resource leak" warning when using scanner.
 
 	}
 }
