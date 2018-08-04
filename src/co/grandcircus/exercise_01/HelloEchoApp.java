@@ -1,4 +1,4 @@
-package co.grandcircus.fbjava_july2018.exercise_01;
+package co.grandcircus.exercise_01;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Hello, World! ECHOOOOOO!
  */
 
-public class HelloEcho {
+public class HelloEchoApp {
 
 	/*
 	 * Java provides a number of access modifiers to set access levels for classes,
